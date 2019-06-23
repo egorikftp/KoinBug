@@ -22,5 +22,6 @@ class MainActivity : AppCompatActivity() {
                 .replace(R.id.container, CrashFragment(), "CrashFragment")
                 .commit()
         }
+
     }
 }
