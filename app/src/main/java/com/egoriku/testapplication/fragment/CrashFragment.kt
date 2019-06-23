@@ -20,6 +20,7 @@ class CrashFragment : Fragment() {
 
     private val viewModelScope = getKoin().getOrCreateScope("IService",named("CrashFragment"))
     private val model: TestViewModel = viewModelScope.get()
+
     //private val model: TestViewModel by currentScope.viewModel(this)
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
