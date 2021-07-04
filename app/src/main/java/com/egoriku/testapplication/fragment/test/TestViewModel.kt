@@ -1,8 +1,7 @@
-package com.egoriku.testapplication.viewmodel
+package com.egoriku.testapplication.fragment.test
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.egoriku.testapplication.service.IService
 
 class TestViewModel(private val service: IService) : ViewModel() {
 
